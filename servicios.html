@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicios - Estructuras Metálicas</title>
+    <style>
+        /* Reset basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header Styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #ff5722;
+}
+
+/* Services Section */
+.services-intro {
+    background-color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.services-intro h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.services-intro p {
+    font-size: 18px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.services {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 40px;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: space-between;
+}
+
+.service-card {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border-radius: 8px;
+}
+
+.service-card h3 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.service-card p {
+    font-size: 16px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Estructuras Metálicas</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="proyectos.html">Proyectos</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="services-intro">
+        <div class="container">
+            <h2>Servicios que Ofrecemos</h2>
+            <p>En Estructuras Metálicas, nos especializamos en ofrecer soluciones innovadoras y duraderas para tus proyectos. A continuación, te mostramos nuestros principales servicios.</p>
+        </div>
+    </section>
+
+    <section class="services">
+        <div class="service-card">
+            <h3>Diseño y Planificación</h3>
+            <p>Contamos con un equipo de expertos que realizan el diseño y planificación de estructuras metálicas a medida, adaptándonos a las necesidades específicas de cada cliente.</p>
+        </div>
+        <div class="service-card">
+            <h3>Fabricación de Estructuras</h3>
+            <p>Fabricamos estructuras metálicas de alta calidad, asegurando la resistencia y durabilidad de cada componente para proyectos de cualquier escala.</p>
+        </div>
+        <div class="service-card">
+            <h3>Montaje y Construcción</h3>
+            <p>Realizamos el montaje y construcción de estructuras metálicas, asegurando un proceso eficiente y seguro, cumpliendo con los plazos establecidos.</p>
+        </div>
+        <div class="service-card">
+            <h3>Reparación y Mantenimiento</h3>
+            <p>Ofrecemos servicios de reparación y mantenimiento de estructuras metálicas, garantizando la longevidad y el buen estado de las instalaciones.</p>
+        </div>
+    </section>
+</body>
+</html>
